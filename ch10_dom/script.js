@@ -28,11 +28,11 @@
 //   alltheh1s[i].style.borderStyle = "solid"
 
 
-// let alltheh1s = document.getElementsByClassName("blueborder")
-// for(let i = 0; i < alltheh1s.length; i++) {
-//   alltheh1s[i].style.color = "red";
-//   alltheh1s[i].style.borderStyle = "solid"
-// }
+let alltheh1s = document.querySelectorAll(".blueborder")
+for(let i = 0; i < alltheh1s.length; i++) {
+  alltheh1s[i].style.color = "red";
+  alltheh1s[i].style.borderStyle = "solid";
+}
 
 
 
