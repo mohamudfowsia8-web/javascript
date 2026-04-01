@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(123deg, #667eea, #3c1662);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        margin: 0;
+    }
+
+    .calculator {
+        background: white;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(155, 38, 38, 0.2);
+        text-align: center;
+        width: 300px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    button {
+        padding: 10px 15px;
+        margin: 10px 5px;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #addBtn {
+        background: #4facfe;
+        color: white;
+    }
+
+    #multiplyBtn {
+        background: #43e97b;
+        color: white;
+    }
+
+    button:hover {
+        transform: scale(1.1);
+        opacity: 0.9;
+    }
+
+    #result {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: black
+    }
+</style>
+<body>
+    <h2>Math Module Calculator</h2>
+
+    <input id="num1" type="number" placeholder="first number">
+    <input id="num2" type="number" placeholder="second number">
+
+    <br><br>
+
+    <button id="addBtn">Add</button>
+    <button id="multiplyBtn">Multiply</button>
+
+    <p id="result"></p>
+
+    <script type="module" src="./main.js"></script>
+    
+</body>
+
+</html>
